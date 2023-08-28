@@ -1,0 +1,196 @@
+/* text style */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.text_primary {
+  color: #fd6e0a;
+}
+.name {
+  font-family: Qwitcher Grypen;
+}
+.btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
+}
+.section-tittle {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 50px;
+}
+
+/* Nav related style */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 200px;
+}
+.nav-tittle {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #474747;
+}
+/*header related style  */
+.header {
+  background-color: #fff8f3;
+  background-image: url("images/header_bg.png"),
+    url("images/developer.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom right, left center;
+}
+.banner {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+}
+.banner-content {
+  max-width: 500px;
+}
+.banner .profile-pic {
+  width: 500px;
+}
+
+.banner-greeting {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0;
+  justify-content: space-between;
+}
+.banner-tittle {
+  font-size: 85px;
+  font-weight: 700px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+/* Main section Styles */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+main section {
+  margin-top: 130px;
+}
+
+/*About section Style  */
+.about {
+  padding: 130px;
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 130px 0;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.about-info {
+  text-align: center;
+}
+/* Skill Related style */
+#What-i-do-description {
+  padding: 30px 150px;
+}
+.skill-container {
+  display: flex;
+  gap: 24px;
+}
+.skill {
+  padding: 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-description {
+  color: #757575;
+}
+
+/* Resume section style */
+
+.resume-container {
+  display: flex;
+  gap: 70px;
+}
+
+.resume-colom-tittle {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.resume-item-institute {
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.resume-item-description,
+.resume-item-institute {
+  color: #757575;
+}
+.resume-item-tittle {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+}
+.resume-container hr {
+  margin: 30px;
+}
+.download-cv {
+  text-align: center;
+  margin-top: 50px;
+}
+/* Footer style */
+footer {
+  display: flex;
+  gap: 100px;
+  background: #fff8f3;
+  margin-top: 100px;
+  padding: 130px 200px;
+}
+.footer-coloum {
+  width: 50%;
+}
+.social-link a {
+  margin-right: 25px;
+  padding-left: 30px;
+}
+.social-link {
+  padding-left: 120px;
+}
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color: #757575;
+  border-radius: 5px;
+  background: #fff;
+  border: 0px;
+  width: 100%;
+}

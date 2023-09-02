@@ -2,12 +2,14 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
-.text_primary {
-  color: #fd6e0a;
-}
 .name {
   font-family: Qwitcher Grypen;
 }
+
+.text_primary {
+  color: #fd6e0a;
+}
+
 .btn-primary {
   border-radius: 5px;
   background: #fd6e0a;
@@ -68,6 +70,7 @@ nav a {
   padding: 30px 30px 0px 150px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .banner-content {
   max-width: 500px;
@@ -80,7 +83,6 @@ nav a {
   font-size: 45px;
   color: #474747;
   margin-bottom: 0;
-  justify-content: space-between;
 }
 .banner-tittle {
   font-size: 85px;
@@ -177,11 +179,8 @@ footer {
 }
 .social-link a {
   margin-right: 25px;
-  padding-left: 30px;
 }
-.social-link {
-  padding-left: 120px;
-}
+
 .contact input[type="text"],
 .contact input[type="email"],
 textarea {
@@ -193,4 +192,73 @@ textarea {
   background: #fff;
   border: 0px;
   width: 100%;
+}
+
+
+/* responsive styles */
+
+/* mobile devices */
+.hide {
+  display: none;
+}
+
+@media screen and (max-width:576px) {
+  .header{
+      background-image: none;
+  }
+  
+  nav,
+  nav > ul,
+  .banner,
+  .skills-container,
+  .resume-container,
+  .about-info-container,
+  footer {
+      flex-direction: column;
+  }
+
+  nav > ul {
+      gap: 10px;
+  }
+
+  .banner .profile-pic{
+      width: 100%;
+  }
+
+  .banner,
+  #what-i-do-description {
+      padding: 20px;
+  }
+
+  footer, .about {
+      padding: 10px;
+  }
+
+  .btn-primary{
+      margin-bottom: 15px;
+  }
+
+  .footer-column {
+      width: 100%;
+  }
+
+  .contact input[type="text"],
+  .contact input[type="email"],
+  textarea {
+      width: 80%;
+  }
+  .skill-container {
+    
+    flex-wrap: wrap;
+}
+}
+
+@media screen and (min-width:576px) and (max-width:960px) {
+  footer {
+      padding: 30px;
+  }
+  .btn-primary{
+      margin-bottom: 15px;
+  }
+
 }
